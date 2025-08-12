@@ -127,6 +127,35 @@ public class SalaryCalculation {
             default:
                 System.out.println("Invalid choice.");
         }
+output:
+Enter Employee Name:deepi
+Enter Employee ID:01
+Enter Address:123
+Enter Mail ID:deepi@gmail.com
+Enter Mobile No:1234567890
+Enter Basic Pay:15000
+Select Designation:
+1. Programmer
+2. Assistant Professor
+3. Associate Professor
+4. Professor
+1
+
+----- PAY SLIP -----
+Employee Name : deepi
+Employee ID : 01
+Address : 123
+Email : deepi@gmail.com
+Mobile No : 1234567890
+Basic Pay : 15000.0
+DA : 14550.0
+HRA : 1500.0
+PF : 1800.0
+Staff Club : 0.0
+Gross Salary : 31050.0
+Net Salary : 29250.0
+
+
 
         sc.close();
     }
